@@ -1,4 +1,20 @@
-<html><head><title></title></head><body><br><div style="width:100%; text-align:center; font-family:Arial; font-size:12px;" id=other></div><br><div style="width:100%; text-align:center; font-family:Arial; font-size:12px;"><button onclick=parent.window.close();>Close</button></div><script src=axurerp_pagescript.js></script><script language=javascript>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<br />
+	<div style="width:100%; text-align:center; font-family:Arial; font-size:12px;" id=other></div>
+	<br />
+	<div style="width:100%; text-align:center; font-family:Arial; font-size:12px;">
+	    <button onclick="parent.window.close();">
+		    Close
+	    </button>
+	</div>
+	
+	<SCRIPT src="axurerp_pagescript.js"></SCRIPT>
+	
+	<script language=javascript>
 	function getQueryVariable(variable) {
       var query = window.location.hash.substring(1);
       var vars = query.split("&&&");
@@ -13,4 +29,7 @@
 	var other = document.getElementById('other');
 	other.innerHTML = getQueryVariable('other');
 
-	</script></body></html>
+	</script>
+	
+	</body>
+</html>
