@@ -949,6 +949,7 @@ body {
   width:49px;
   height:19px;
   font-size:16px;
+  text-align: center;
 }
 #u65_img {
   position:absolute;
@@ -966,7 +967,7 @@ body {
 }
 #u67 {
   position:absolute;
-  left:81px;
+  left:80px;
   top:606px;
   width:118px;
   height:15px;
@@ -986,6 +987,7 @@ body {
   top:0px;
   width:118px;
   white-space:nowrap;
+  text-align:center;
 }
 #u69 {
   position:absolute;
@@ -1123,10 +1125,11 @@ body {
   top:0px;
   width:49px;
   white-space:nowrap;
+  text-align:center;
 }
 #u81 {
   position:absolute;
-  left:331px;
+  left:319px;
   top:606px;
   width:118px;
   height:15px;
@@ -1146,6 +1149,7 @@ body {
   top:0px;
   width:118px;
   white-space:nowrap;
+  text-align:center;
 }
 #u83 {
   position:absolute;
@@ -1190,6 +1194,7 @@ body {
   left:6px;
   top:3px;
   word-wrap:break-word;
+  text-align: left;
 }
 #u87 {
   position:absolute;
@@ -1282,7 +1287,7 @@ body {
 }
 #u95 {
   position:absolute;
-  left:581px;
+  left:559px;
   top:606px;
   width:118px;
   height:15px;
@@ -1302,6 +1307,7 @@ body {
   top:0px;
   width:118px;
   white-space:nowrap;
+  text-align:center;
 }
 #u97 {
   position:absolute;
@@ -1439,7 +1445,7 @@ body {
 }
 #u109 {
   position:absolute;
-  left:831px;
+  left:811px;
   top:606px;
   width:118px;
   height:15px;
@@ -1459,6 +1465,7 @@ body {
   top:0px;
   width:118px;
   white-space:nowrap;
+  text-align:center;
 }
 #u111 {
   position:absolute;
@@ -1614,14 +1621,14 @@ body {
 }
 #u124 {
   position:absolute;
-
+  text-align:center;
   top:0px;
   width:129px;
   white-space:nowrap;
 }
 #u125 {
   position:absolute;
-  left:100px;
+  left:95px;
   top:945px;
   width:88px;
   height:15px;
@@ -1734,7 +1741,7 @@ body {
 }
 #u135 {
   position:absolute;
-  left:350px;
+  left:334px;
   top:916px;
   width:81px;
   height:19px;
@@ -1753,10 +1760,11 @@ body {
   top:0px;
   width:81px;
   white-space:nowrap;
+  text-align:center;
 }
 #u137 {
   position:absolute;
-  left:350px;
+  left:345px;
   top:945px;
   width:88px;
   height:15px;
@@ -1874,6 +1882,7 @@ body {
   width:129px;
   height:19px;
   font-size:16px;
+  text-align:center;
 }
 #u147_img {
   position:absolute;
@@ -1888,10 +1897,11 @@ body {
   top:0px;
   width:129px;
   white-space:nowrap;
+  text-align:center;
 }
 #u149 {
   position:absolute;
-  left:600px;
+  left:595px;
   top:945px;
   width:88px;
   height:15px;
@@ -2023,10 +2033,11 @@ body {
   top:0px;
   width:129px;
   white-space:nowrap;
+  text-align:center;
 }
 #u161 {
   position:absolute;
-  left:850px;
+  left:845px;
   top:945px;
   width:88px;
   height:15px;
