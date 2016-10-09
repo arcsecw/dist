@@ -770,7 +770,7 @@ body {
   position:absolute;
   left:828px;
   top:321px;
-  width:157px;
+  width:15px;
   height:30px;
   font-size:12px;
 }
@@ -785,14 +785,14 @@ body {
   position:absolute;
   left:0px;
   top:0px;
-  width:157px;
+  width:15px;
   white-space:nowrap;
 }
 #u51 {
   position:absolute;
   left:828px;
   top:361px;
-  width:157px;
+  width:15px;
   height:30px;
   font-size:12px;
 }
@@ -967,7 +967,7 @@ body {
 }
 #u67 {
   position:absolute;
-  left:60px;
+  left:70px;
   top:606px;
   width:118px;
   height:15px;
@@ -1015,10 +1015,11 @@ body {
   position:absolute;
   left:63px;
   top:631px;
-  width:72px;
+  width:140px;
   height:70px;
   font-size:12px;
   color:#999999;
+  text-align:left;
 
  
 }
@@ -1106,11 +1107,12 @@ body {
 }
 #u79 {
   position:absolute;
-  left:364px;
+  left:355px;
   top:580px;
   width:49px;
   height:19px;
   font-size:16px;
+  text-align: center;
 }
 #u79_img {
   position:absolute;
@@ -1270,6 +1272,7 @@ body {
   width:49px;
   height:19px;
   font-size:16px;
+  text-align: center;
 }
 #u93_img {
   position:absolute;
@@ -1351,7 +1354,7 @@ body {
   position:absolute;
   left:6px;
   top:2px;
-
+text-align:left;
   word-wrap:break-word;
 }
 #u101 {
@@ -1428,6 +1431,7 @@ body {
   width:49px;
   height:19px;
   font-size:16px;
+  text-align: center;
 }
 #u107_img {
   position:absolute;
@@ -1509,7 +1513,7 @@ body {
   position:absolute;
   left:6px;
   top:2px;
-
+text-align:left;
   word-wrap:break-word;
 }
 #u115 {
@@ -1634,6 +1638,7 @@ body {
   height:15px;
   font-size:12px;
   color:#666666;
+  text-align: center;
 }
 #u125_img {
   position:absolute;
@@ -1741,7 +1746,7 @@ body {
 }
 #u135 {
   position:absolute;
-  left:334px;
+  left:348px;
   top:916px;
   width:81px;
   height:19px;
@@ -1770,6 +1775,7 @@ body {
   height:15px;
   font-size:12px;
   color:#666666;
+  text-align: center;
 }
 #u137_img {
   position:absolute;
@@ -1907,6 +1913,7 @@ body {
   height:15px;
   font-size:12px;
   color:#666666;
+  text-align:center;
 }
 #u149_img {
   position:absolute;
@@ -2043,6 +2050,7 @@ body {
   height:15px;
   font-size:12px;
   color:#666666;
+  text-align: center;
 }
 #u161_img {
   position:absolute;
@@ -2541,4 +2549,12 @@ width:134px;
 }
 #302{
 left:5px;
+}
+#u1000{
+position:absolute;
+  left:828px;
+  top:321px;
+  width:157px;
+  height:30px;
+  font-size:12px;
 }
