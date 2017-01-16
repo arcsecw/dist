@@ -39,4 +39,4 @@ dist
 *.bak
 *.conf
 .qshell/
-i/images/
+i/images
