@@ -316,10 +316,11 @@ var AboutUs = _react2.default.createClass({
                         _react2.default.createElement(
                             "span",
                             null,
+                            _react2.default.createElement("img", { src: "http://www.beian.gov.cn/img/ghs.png" }),
                             _react2.default.createElement(
                                 "a",
-                                { href: "http://www.miitbeian.gov.cn" },
-                                "京ICP备案16059247号"
+                                { href: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799" },
+                                "京公网安备 11010802022799号"
                             )
                         )
                     )
@@ -3633,10 +3634,11 @@ var About_us = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
-                  { href: 'http://www.miitbeian.gov.cn' },
-                  '京ICP备案16059247号'
+                  { href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799' },
+                  '京公网安备 11010802022799号'
                 )
               )
             )
@@ -6914,10 +6916,11 @@ var Doctor_list = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
-                  { href: 'http://www.miitbeian.gov.cn' },
-                  '京ICP备案16059247号'
+                  { href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799' },
+                  '京公网安备 11010802022799号'
                 )
               )
             )
@@ -9068,10 +9071,11 @@ var Index_home = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
-                  { href: 'http://www.miitbeian.gov.cn' },
-                  '京ICP备案16059247号'
+                  { href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799' },
+                  '京公网安备 11010802022799号'
                 )
               )
             )
@@ -11078,10 +11082,11 @@ var Institution_list = (0, _reactRouter.withRouter)(_react2.default.createClass(
                             _react2.default.createElement(
                                 'span',
                                 null,
+                                _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                                 _react2.default.createElement(
                                     'a',
-                                    { href: 'http://www.miitbeian.gov.cn' },
-                                    '京ICP备案16059247号'
+                                    { href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799' },
+                                    '京公网安备 11010802022799号'
                                 )
                             )
                         )
@@ -11531,10 +11536,11 @@ var Login = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
-                  { href: 'http://www.miitbeian.gov.cn' },
-                  '京ICP备案16059247号'
+                  { href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799' },
+                  '京公网安备 11010802022799号'
                 )
               )
             )
@@ -16639,10 +16645,11 @@ var Query_result = (0, _reactRouter.withRouter)(_react2.default.createClass({
                             _react2.default.createElement(
                                 'span',
                                 null,
+                                _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                                 _react2.default.createElement(
                                     'a',
-                                    { href: 'http://www.miitbeian.gov.cn' },
-                                    '京ICP备案16059247号'
+                                    { href: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022799' },
+                                    '京公网安备 11010802022799号'
                                 )
                             )
                         )
