@@ -316,6 +316,19 @@ var AboutUs = _react2.default.createClass({
                         _react2.default.createElement(
                             "span",
                             null,
+                            _react2.default.createElement(
+                                "a",
+                                { href: "http://www.miitbeian.gov.cn" },
+                                "           京ICP备案16059247号"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        null,
+                        _react2.default.createElement(
+                            "span",
+                            null,
                             _react2.default.createElement("img", { src: "http://www.beian.gov.cn/img/ghs.png" }),
                             _react2.default.createElement(
                                 "a",
@@ -3634,6 +3647,19 @@ var About_us = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'http://www.miitbeian.gov.cn' },
+                  '           京ICP备案16059247号'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'span',
+                null,
                 _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
@@ -6916,6 +6942,19 @@ var Doctor_list = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'http://www.miitbeian.gov.cn' },
+                  '           京ICP备案16059247号'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'span',
+                null,
                 _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
@@ -9071,6 +9110,19 @@ var Index_home = (0, _reactRouter.withRouter)(_react2.default.createClass({
               _react2.default.createElement(
                 'span',
                 null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'http://www.miitbeian.gov.cn' },
+                  '           京ICP备案16059247号'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'span',
+                null,
                 _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                 _react2.default.createElement(
                   'a',
@@ -11082,6 +11134,19 @@ var Institution_list = (0, _reactRouter.withRouter)(_react2.default.createClass(
                             _react2.default.createElement(
                                 'span',
                                 null,
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: 'http://www.miitbeian.gov.cn' },
+                                    '           京ICP备案16059247号'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            _react2.default.createElement(
+                                'span',
+                                null,
                                 _react2.default.createElement('img', { src: 'http://www.beian.gov.cn/img/ghs.png' }),
                                 _react2.default.createElement(
                                     'a',
@@ -11530,6 +11595,19 @@ var Login = (0, _reactRouter.withRouter)(_react2.default.createClass({
           _react2.default.createElement(
             'div',
             { id: 'u126', className: 'text' },
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'span',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'http://www.miitbeian.gov.cn' },
+                  '           京ICP备案16059247号'
+                )
+              )
+            ),
             _react2.default.createElement(
               'p',
               null,
@@ -16639,6 +16717,19 @@ var Query_result = (0, _reactRouter.withRouter)(_react2.default.createClass({
                     _react2.default.createElement(
                         'div',
                         { id: 'u126', className: 'text' },
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: 'http://www.miitbeian.gov.cn' },
+                                    '           京ICP备案16059247号'
+                                )
+                            )
+                        ),
                         _react2.default.createElement(
                             'p',
                             null,
