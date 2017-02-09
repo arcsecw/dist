@@ -17021,14 +17021,14 @@ var Register_doctor = (0, _reactRouter.withRouter)(_react2.default.createClass({
             if (res.regist_error) {
                 alert(res.regist_error);
             } else {
-                var form = new FormData(_react2.default.createElement('form', { encType: 'multipart/form-data', method: 'post' }));
+                var form = new FormData();
                 form.append("imgFile", _this.refs.my_file.files[0]);
                 form.append("username", _this.state.username);
                 form.append("certificate", 'true');
                 form.append("role", res.role);
                 form.append("user_name", _this.state.username);
                 _auth2.default.post('upload.do', form, function (res) {});
-                var form = new FormData(_react2.default.createElement('form', { encType: 'multipart/form-data', method: 'post' }));
+                var form = new FormData();
                 form.append("imgFile", _this.refs.my_file_1.files[0]);
                 form.append("username", _this.state.username);
                 form.append("role", res.role);
@@ -21099,7 +21099,6 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
     getInitialState: function getInitialState() {
         return {
             yuyue: {
-                notice: '',
                 didian: '',
                 zhuanjia: '',
                 yuyueshijian: '2016-8-20',
@@ -21118,6 +21117,7 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
                 id: ''
             },
             qitafuwu: [],
+            notice: 'fff',
             qitafuwu1: [{
                 description: '大保健1',
                 price: '20',
@@ -21135,18 +21135,16 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
 
         var pars = this.state.yuyue;
 
-        var parms = [{ 'key': 'orderFocus', 'value': pars.notice }, { 'key': 'orderReserveTime', 'value': pars.yuyueshijian }, { 'key': 'orderOperation', 'value': pars.shoushuneirong }, { 'key': 'orderInsurance', 'value': '1' }, { 'key': 'contactRealname', 'value': pars.lianxirenxingming }, { 'key': 'relation', 'value': pars.yuhuanzheguanxi }, { 'key': 'mobile', 'value': pars.shouji }, { 'key': 'contactAddress', 'value': pars.dizhi }, { 'key': 'patientRealname', 'value': pars.xingming }, { 'key': 'patientAge', 'value': '' }, { 'key': 'patientDiagnose', 'value': pars.quezhenxinxi }, { 'key': 'patientDisease', 'value': '' }, { 'key': 'username', 'value': _auth2.default.getUsername() }];
+        var parms = [{ 'key': 'orderReserveTime', 'value': pars.yuyueshijian }, { 'key': 'orderOperation', 'value': pars.shoushuneirong }, { 'key': 'orderInsurance', 'value': '1' }, { 'key': 'contactRealname', 'value': pars.lianxirenxingming }, { 'key': 'relation', 'value': pars.yuhuanzheguanxi }, { 'key': 'mobile', 'value': pars.shouji }, { 'key': 'contactAddress', 'value': pars.dizhi }, { 'key': 'patientRealname', 'value': pars.xingming }, { 'key': 'patientAge', 'value': '' }, { 'key': 'patientDiagnose', 'value': pars.quezhenxinxi }, { 'key': 'patientDisease', 'value': '' }, { 'key': 'username', 'value': _auth2.default.getUsername() }];
         var qitafuwu = this.get_check_box_value();
         qitafuwu.map(function (l) {
             parms.push({ 'key': 'service', 'value': l });
         });
-        console.log(parms);
         _auth2.default.myact({ to: 'orderGen.do',
             parms: parms
         }, function (res) {
-            var form = new FormData(_react2.default.createElement('form', { encType: 'multipart/form-data', method: 'post' }));
+            var form = new FormData();
             form.append("imgFile", _this.refs.my_file.files[0]);
-            console.log(_this.refs.my_file.files[0]);
             form.append("username", _auth2.default.getUsername());
             form.append("role", _auth2.default.getRole());
             _auth2.default.post('upload.do', form, function (res) {});
@@ -21156,12 +21154,15 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
             _this.props.router.push({ pathname: '/checkReservation', query: _this.state.yuyue });
         });
     },
-    componentWillMount: function componentWillMount() {
+    componentDidMount: function componentDidMount() {
         var _this2 = this;
 
-        _auth2.default.get('book.do', {}, function (res) {
-            _this2.state.yuyue.notice = res.shift().focus;
-            _this2.setState({ qitafuwu1: res });
+        _auth2.default.get('book.do', { 'test': 'test' }, function (res) {
+            var state = _this2.state.yuyue;
+            var n = res.shift().focus;
+            _this2.state.notice = n;
+            _this2.state.qitafuwu1 = res;
+            _this2.forceUpdate();
         });
         _auth2.default.get('list.do', { 'page': '1', 'role': '2', 'paixu': '1' }, function (res) {
             console.log(res);
@@ -21174,7 +21175,6 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
     },
     submitForm: function submitForm() {
         var refss = this.refs;
-        console.log(refss.service);
         this.state.yuyue.didian = refss.didian.value;
         this.state.yuyue.yuyueshijian = refss.yuyueshijian.value;
         this.state.yuyue.shoushuneirong = refss.shoushuneirong.value;
@@ -21230,6 +21230,7 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
                 '描述：' + line.description + '---价格：' + line.price
             );
         });
+        var notice = this.state.notice;
         var pr = this.state.yuyue;
 
         return _react2.default.createElement(
@@ -21427,12 +21428,8 @@ var User_reservation = (0, _reactRouter.withRouter)(_react2.default.createClass(
                         _react2.default.createElement(
                             'p',
                             null,
-                            _react2.default.createElement('span', null),
-                            _react2.default.createElement(
-                                'span',
-                                null,
-                                pr.notice
-                            )
+                            '：',
+                            notice
                         )
                     )
                 ),
